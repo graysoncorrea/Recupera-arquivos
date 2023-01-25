@@ -11,5 +11,5 @@ for root, dirs, files in os.walk(path):
         if file.endswith("~"):
             # Recupera o arquivo
             source = os.path.join(root, file)
-            destination = os.path.join("C:\\recovered_files", file)
+            destination = os.path.join("D:\\recovered_files", file)
             shutil.move(source, destination)
