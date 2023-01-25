@@ -1,2 +1,3 @@
 # Recupera-arquivos
-Recupera 
+Recupera arquivos do disco apontado
+salva no disco apontado
